@@ -4,7 +4,7 @@
 # https://github.com/google/renameio
 %global goipath		github.com/google/renameio
 %global forgeurl	https://github.com/google/renameio
-Version:		1.0.0
+Version:		2.0.0
 
 %gometa
 
