@@ -4,7 +4,7 @@
 # https://github.com/google/renameio
 %global goipath		github.com/google/renameio
 %global forgeurl	https://github.com/google/renameio
-Version:		2.0.0
+Version:		2.0.2
 
 %gometa
 
@@ -44,7 +44,7 @@ building other packages which use import path with
 #-----------------------------------------------------------------------
 
 %prep
-%autosetup -p1 -n renameio-%{version}
+%autosetup -p1 -n renameio-2.0.2
 
 %build
 %gobuildroot
